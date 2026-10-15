@@ -18,10 +18,22 @@ student = {
         }
     }
 }
+
+# for i in student:
+#   print(i)
+
+for x in student.values():
+    print(x)
 #print(student["address"]['city'])
 #print(student.get('address'))
 #print(student.keys())
 #print(student.values())
 #student["name"] = "Dev"
-x = student.items()
-print(student)
+# x = student.items()
+# y= student.update({'age':'35'})
+# print(student)
+
+# z= student.update({'academic': 'CBHS'})
+# print(student)
+# student.pop('name')
+# print(student)
