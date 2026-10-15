@@ -22,8 +22,14 @@ student = {
 # for i in student:
 #   print(i)
 
-for x in student.values():
-    print(x)
+# for x in student.values():
+#     print(x)
+
+# for z in student.keys():
+#   print(z)
+
+# for a in student.items():
+#   print(a)
 #print(student["address"]['city'])
 #print(student.get('address'))
 #print(student.keys())
@@ -37,3 +43,25 @@ for x in student.values():
 # print(student)
 # student.pop('name')
 # print(student)
+
+# address= {
+#         "city": "Dhaka",
+#         "area": "Dhanmondi",
+#         "postal_code": 1205
+#     }
+
+# x = address.copy()
+# print(x)
+
+# asw = student.copy()
+# print(asw)
+
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.copy()
+
+print(x)
