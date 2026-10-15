@@ -1,0 +1,2 @@
+userName= input()
+print(userName)
