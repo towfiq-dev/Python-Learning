@@ -4,7 +4,13 @@
 
 # myFun(3, 5)
 
-def myFun(x,y):
-  sum = (x+y)
-  print(sum)
-myFun(5,5)
+# def myFun(x,y):
+#   sum = (x+y)
+#   print(sum)
+# myFun(5,5)
+
+def myFun3():
+  print("Hablu")
+  myFun3()
+
+myFun3()
